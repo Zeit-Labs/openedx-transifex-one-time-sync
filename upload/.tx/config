@@ -1,0 +1,94 @@
+[main]
+host = https://www.transifex.com
+[o:open-edx:p:openedx-translations:r:ae518fadaa8a0d0027a1b36c4e6e367a]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:0b27792ea213cebf5cddad529a8cd442]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:66cfa04d24daa4089acf61c5b11ee883]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:862137d25aff8ed766d3dec238ce833a]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:b8933764bdb3063ca09d6aa20341102f]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:bf47016dfec2eaf5710e1890d0ee0188]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:f3036886abbc04d70445374bc01e562e]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:translations-course-discovery-course-discovery-conf-locale-en-lc-messages-djangojs-po--main]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:translations-credentials-credentials-conf-locale-en-lc-messages-djangojs-po--main]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:translations-frontend-app-account-src-i18n-transifex-input-json--main]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:translations-frontend-app-authn-src-i18n-transifex-input-json--main]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:translations-frontend-app-course-authoring-src-i18n-transifex-input-json--main]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:translations-frontend-app-discussions-src-i18n-transifex-input-json--main]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:translations-frontend-app-ecommerce-src-i18n-transifex-input-json--main]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:translations-frontend-app-gradebook-src-i18n-transifex-input-json--main]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:translations-frontend-app-learner-dashboard-src-i18n-transifex-input-json--main]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:translations-frontend-app-learner-record-src-i18n-transifex-input-json--main]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:translations-frontend-app-learning-src-i18n-transifex-input-json--main]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:translations-frontend-app-profile-src-i18n-transifex-input-json--main]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:translations-frontend-app-program-console-src-i18n-transifex-input-json--main]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:translations-frontend-component-footer-src-i18n-transifex-input-json--main]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:translations-frontend-component-header-src-i18n-transifex-input-json--main]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:openedx-translations:r:translations-paragon-src-i18n-transifex-input-json--main]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en

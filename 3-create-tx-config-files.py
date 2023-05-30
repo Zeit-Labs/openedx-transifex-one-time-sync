@@ -192,34 +192,18 @@ def sync_pair_into_new_resource():
     projects = get_transifex_organization_projects()
     new_project = projects.get(slug='openedx-translations')
 
-    for plan in resources_plan:
-        resource_name = plan['resource_name']
-        resource_slug = plan['resource_slug']
-        resource_id = f'o:{ORGANIZATION_SLUG}:p:{new_project.slug}:r:{resource_slug}'
-        new_resource = transifex_api.Resource.get(id=resource_id)
-        assert new_resource.name == resource_name
-        print(new_resource, new_resource.name, new_resource.id)
+    with open('download/.tx/config', 'w') as download_file, open('upload/.tx/config', 'w') as upload_file:
+        
+        download_file.write(f'[main]\nhost = https://www.transifex.com\n')
+        upload_file.write(f'[main]\nhost = https://www.transifex.com\n')
 
-        pair_id = f'o:{ORGANIZATION_SLUG}:p:{plan["pair_project_slug"]}:r:{plan["pair_slug"]}'
-        pair_resource = transifex_api.Resource.get(id=pair_id)
-        print(pair_resource, pair_resource.name)
+        for plan in resources_plan:
+            resource_id = f'o:{ORGANIZATION_SLUG}:p:{new_project.slug}:r:{plan["resource_slug"]}'
+            pair_id = f'o:{ORGANIZATION_SLUG}:p:{plan["pair_project_slug"]}:r:{plan["pair_slug"]}'
 
-        print(f'Syncing {new_resource.name} from {pair_resource.name}...')
+            download_file.write(f'[{pair_id}]\nfile_filter = resources/<lang>.po\nsource_file = resources/<lang>.po\nsource_lang = en\n')
 
-        for language in LANGUAGES:
-            try:
-                language_obj = transifex_api.Language.get(code=language)
-                url = transifex_api.ResourceTranslationsAsyncDownload. \
-                    download(resource=pair_resource, language=language_obj)
-                translated_content = requests.get(url).text
-                print(translated_content)
-
-                transifex_api.ResourceTranslationsAsyncUpload.upload(resource=new_resource, language=f'l:{language}',
-                                                                     content=translated_content)
-            except Exception as e:
-                print(e)
-                import pdb
-                pdb.set_trace()
+            upload_file.write(f'[{resource_id}]\nfile_filter = resources/<lang>.po\nsource_file = resources/<lang>.po\nsource_lang = en\n')
 
 
 if __name__ == '__main__':

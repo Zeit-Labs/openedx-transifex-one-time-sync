@@ -1,0 +1,94 @@
+[main]
+host = https://www.transifex.com
+[o:open-edx:p:edx-platform:r:openassessment]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:edx-platform:r:openassessment-js]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:edx-platform:r:edx-proctoring]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:edx-platform:r:studio-frontend]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:xblocks:r:xblock-done]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:xblocks:r:drag-and-drop-v2]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:xblocks:r:xblock-free-text-response]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:edx-platform:r:course_discovery]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:edx-platform:r:credentials]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:edx-platform:r:frontend-app-account]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:edx-platform:r:frontend-app-authn]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:edx-platform:r:frontend-app-course-authoring]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:edx-platform:r:frontend-app-discussions]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:edx-platform:r:frontend-app-ecommerce]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:edx-platform:r:frontend-app-gradebook]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:edx-platform:r:frontend-app-learner-dashboard]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:edx-platform:r:frontend-app-learner-record]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:edx-platform:r:frontend-app-learning]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:edx-platform:r:frontend-app-profile]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:edx-platform:r:frontend-app-program-manager]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:edx-platform:r:frontend-component-footer]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:edx-platform:r:frontend-component-header]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
+[o:open-edx:p:edx-platform:r:paragon]
+file_filter = resources/<lang>.po
+source_file = resources/<lang>.po
+source_lang = en
