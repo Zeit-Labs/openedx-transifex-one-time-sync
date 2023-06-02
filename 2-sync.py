@@ -141,7 +141,7 @@ resources_plan = [
     {
         "resource_name": "frontend-component-footer",
         "resource_slug": "translations-frontend-component-footer-src-i18n-transifex-input-json--main",
-        "pair_slug": "frontend-component-footer",
+        "pair_slug": "frontend-component-footer-edx",
         "pair_project_slug": "edx-platform",
     },
     {
